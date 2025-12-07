@@ -1,0 +1,15 @@
+/* style.css - minimal clean look */
+body{font-family: Arial, sans-serif;background:#f7f7f7;margin:0;padding:0}
+.container{max-width:760px;margin:40px auto;padding:20px;background:#fff;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+h1{margin:0 0 12px}
+form label{display:block;margin:8px 0;font-weight:600}
+input[type="text"], input[type="email"], input[type="password"], select{width:100%;padding:10px;border:1px solid #ddd;border-radius:4px}
+button{padding:10px 16px;border:none;border-radius:6px;background:#2e86de;color:#fff;font-weight:600;cursor:pointer}
+.btn-plain{background:#666}
+.question{padding:12px;border:1px solid #eee;border-radius:6px;margin-bottom:12px}
+.options label{display:block;margin:6px 0}
+.result{padding:12px;border-radius:6px;margin-top:12px;font-weight:700}
+.result.good{background:#e9f9ee;color:#0b8a2b}
+.result.bad{background:#fff0f0;color:#a00}
+.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+a{color:#2e86de;text-decoration:none}
